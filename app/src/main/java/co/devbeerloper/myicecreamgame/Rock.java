@@ -17,7 +17,7 @@ public class Rock {
     int puntos=0;
     private float maxY;
     private float maxX;
-
+    private int  orientation=1;
     private float speed = 0;
     private float positionX;
     private float positionY;
@@ -100,9 +100,20 @@ public class Rock {
     public int updateInfo (float a, float b,int level,int x, int y) {
 
          this.positionX-=3*level;
-         this.SPRITE_SIZE_HEIGTH*=(level  );
+         this.SPRITE_SIZE_HEIGTH*=(level );
          this.SPRITE_SIZE_WIDTH*=(level);
          speed+=5;
+
+        if(level>2 ){
+            this.positionY+=(orientation);
+        }
+        if(positionY<0){
+            orientation=1;
+        }
+        if(positionY>maxY){
+            orientation=-1;
+        }
+
         if(this.positionX<0){
             this.positionX= this.maxX;
             this.positionY =  (float)Math.random()*maxY;
