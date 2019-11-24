@@ -10,8 +10,8 @@ public class Planet1 {
 
     public static final float INIT_X =100;
     public static final float INIT_Y =100;
-    public static final int SPRITE_SIZE_WIDTH =120;
-    public static final int SPRITE_SIZE_HEIGTH=100;
+    public static final int SPRITE_SIZE_WIDTH =50;
+    public static final int SPRITE_SIZE_HEIGTH=50;
     public static final float GRAVITY_FORCE=10;
     private final int MIN_SPEED = 1;
     private final int MAX_SPEED = 20;
@@ -87,7 +87,6 @@ public class Planet1 {
     public void updateInfo () {
 
         this.positionX-=1;
-        System.out.println(this.positionX);
         speed+=5;
         if(this.positionX<0){
             this.positionX= this.maxX;

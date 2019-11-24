@@ -86,7 +86,6 @@ public class Planet4 {
     public void updateInfo () {
 
         this.positionX-=0.8;
-        System.out.println(this.positionX);
         speed+=5;
         if(this.positionX<0){
             this.positionX= this.maxX;

@@ -9,7 +9,7 @@ public class ShipBad {
     public static final float INIT_X =100;
     public static final float INIT_Y =100;
     public  int SPRITE_SIZE_WIDTH =70;
-    public  int SPRITE_SIZE_HEIGTH=50;
+    public  int SPRITE_SIZE_HEIGTH=70;
     public static final float GRAVITY_FORCE=10;
     private final int MIN_SPEED = 1;
     private final int MAX_SPEED = 20;
@@ -92,7 +92,7 @@ public class ShipBad {
     /**
      * Control the position and behaviour of the icecream car
      */
-    public int updateInfo (float a, float b,int level) {
+    public int updateInfo (float a, float b,int level,int x, int y) {
 
          this.positionX-=0.5;
          this.SPRITE_SIZE_HEIGTH*=(level  );
@@ -101,8 +101,17 @@ public class ShipBad {
         if(this.positionX<0){
             this.positionX= this.maxX;
             this.positionY =  (float)Math.random()*maxY;
-            return 0;
+            return -10000;
         }
+
+        if(x+100>this.positionX && x-100<this.positionX ){
+            if(y+100>this.positionY && y-100<this.positionY ){
+                this.positionX= this.maxX;
+                this.positionY = (float)Math.random()*maxY;
+                return 5;
+            }
+        }
+
         if(a+60>this.positionX && a-60<this.positionX ){
             if(b+60>this.positionY && b-60<this.positionY ){
                 this.positionX= this.maxX;
