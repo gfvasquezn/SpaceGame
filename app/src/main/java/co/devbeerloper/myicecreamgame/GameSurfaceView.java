@@ -10,6 +10,7 @@ import android.view.MotionEvent;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.widget.Toast;
+import android.media.MediaPlayer;
 
 public class GameSurfaceView extends SurfaceView implements Runnable {
 
@@ -23,9 +24,9 @@ public class GameSurfaceView extends SurfaceView implements Runnable {
     private Thread gameplayThread = null;
     private  int times=0;
     private int score=0;
-    private Rock[] rocks= new Rock[3];
-    private ShipBad[] shipsBad= new ShipBad[3];
-    private EnemyBullet[] enemyBullet= new EnemyBullet[3];
+    private Rock[] rocks= new Rock[10];
+    private ShipBad[] shipsBad= new ShipBad[10];
+    private EnemyBullet[] enemyBullet= new EnemyBullet[10];
     boolean active=false;
     boolean rockTouched=false;
     int screenWith=0;
@@ -36,7 +37,7 @@ public class GameSurfaceView extends SurfaceView implements Runnable {
     private Planet2[] planets2= new Planet2[1];
     private Planet3[] planets3= new Planet3[1];
     private Planet4[] planets4= new Planet4[1];
-
+    private MediaPlayer mediaPlayer;
     /**
      * Contructor
      * @param context
@@ -46,6 +47,9 @@ public class GameSurfaceView extends SurfaceView implements Runnable {
         this.screenWith=(int)screenWith;
         ship = new Ship(context, screenWith, screenHeight);
         bullet = new Bullet(context, screenWith, screenHeight);
+        mediaPlayer = MediaPlayer.create(context,R.raw.game);
+        mediaPlayer.setLooping(true);
+        mediaPlayer.start();
         paint = new Paint();
         paintStart= new Paint();
         paintStart.setTextSize(100);
@@ -152,7 +156,7 @@ public class GameSurfaceView extends SurfaceView implements Runnable {
 
         }
         if((score/20)+1>level){
-            level=(score/500)+1;
+            level=(score/60)+1;
         }
     }
 
@@ -163,7 +167,7 @@ public class GameSurfaceView extends SurfaceView implements Runnable {
             canvas.drawColor(Color.BLACK);
             canvas.drawText("Score "+this.score+"", 40,40,paint);
             canvas.drawText("Level "+this.level+"", this.screenWith-400,40,paint);
-            if(!active){canvas.drawText("You lose", 650,400,paint);}
+            if(!active){canvas.drawText("Start", 650,400,paint);}
             canvas.drawText("S ", 20,250,paint);
             canvas.drawText("H ", 20,300,paint);
             canvas.drawText("O ", 20,350,paint);
@@ -193,6 +197,7 @@ public class GameSurfaceView extends SurfaceView implements Runnable {
 
     public void pause() {
         isPlaying = false;
+        mediaPlayer.stop();
         try {
             gameplayThread.join();
         } catch (InterruptedException e) {
@@ -201,7 +206,7 @@ public class GameSurfaceView extends SurfaceView implements Runnable {
     }
 
     public void resume() {
-
+        mediaPlayer.start();
         isPlaying = true;
         gameplayThread = new Thread(this);
         gameplayThread.start();

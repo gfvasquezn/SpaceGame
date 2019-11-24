@@ -33,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/co/devbeerloper/myicecreamgame/EnemyBullet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="102" column="23" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="23" />
+            <state relative-caret-position="131">
+              <caret line="113" column="30" selection-start-line="113" selection-start-column="30" selection-end-line="113" selection-end-column="30" />
               <folding>
                 <element signature="e#2037#2038#0" expanded="true" />
                 <element signature="e#2066#2067#0" expanded="true" />
@@ -62,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/co/devbeerloper/myicecreamgame/Rock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            <state relative-caret-position="-1569">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
               <folding>
                 <element signature="e#1789#1790#0" expanded="true" />
                 <element signature="e#1818#1819#0" expanded="true" />
@@ -146,8 +146,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/co/devbeerloper/myicecreamgame/GameSurfaceView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="120" column="147" selection-start-line="120" selection-start-column="147" selection-end-line="120" selection-end-column="147" />
+            <state relative-caret-position="90">
+              <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -166,7 +166,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>acti</find>
       <find>icecreamCar</find>
       <find>icec</find>
       <find>SpriteShipBad</find>
@@ -193,8 +192,9 @@
       <find>disparar</find>
       <find>maxY</find>
       <find>getMaxX</find>
-      <find>ship</find>
       <find>sprit</find>
+      <find>scor</find>
+      <find>ship</find>
       <find>400</find>
     </findStrings>
     <replaceStrings>
@@ -206,8 +206,8 @@
       <replace>ShipBad</replace>
       <replace>spriteShipBad</replace>
       <replace>rock</replace>
-      <replace>EnemyBullet</replace>
       <replace>ship</replace>
+      <replace>EnemyBullet</replace>
       <replace>maxY</replace>
     </replaceStrings>
     <dirStrings>
@@ -229,14 +229,14 @@
         <option value="$PROJECT_DIR$/app/src/main/java/co/devbeerloper/myicecreamgame/Ship.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_game_play.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/co/devbeerloper/myicecreamgame/EnemyBullet.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/co/devbeerloper/myicecreamgame/Planet4.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/co/devbeerloper/myicecreamgame/Planet3.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/co/devbeerloper/myicecreamgame/Planet2.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/co/devbeerloper/myicecreamgame/Planet1.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/co/devbeerloper/myicecreamgame/Rock.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/co/devbeerloper/myicecreamgame/ShipBad.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/co/devbeerloper/myicecreamgame/Bullet.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/co/devbeerloper/myicecreamgame/Rock.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/co/devbeerloper/myicecreamgame/EnemyBullet.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/co/devbeerloper/myicecreamgame/GameSurfaceView.java" />
       </list>
     </option>
@@ -356,16 +356,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="drawable-v24" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gameSpace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gameSpace" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
+              <item name="raw" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -382,6 +373,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gfvas\OneDrive\Documentos\workspace\IceCream\gameSpace\app\src\main\res\raw" />
       <recent name="C:\Users\gfvas\OneDrive\Documentos\workspace\IceCream\gameSpace\app\src\main\res\drawable" />
       <recent name="C:\Users\gfvas\OneDrive\Documentos\workspace\IceCream\gameSpace\app\src\main\res\drawable-v24" />
       <recent name="C:\Users\gfvas\OneDrive\Documentos\workspace\IceCream\gameSpace\app\src\main\java\co\devbeerloper\myicecreamgame" />
@@ -487,7 +479,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.06354009" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24281392" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -500,10 +492,10 @@
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.3721634" side_tool="true" weight="0.4302721" />
-      <window_info active="true" anchor="bottom" id="Build" order="5" sideWeight="0.58018154" visible="true" weight="0.35204083" />
+      <window_info active="true" anchor="bottom" id="Build" order="5" sideWeight="0.58018154" visible="true" weight="0.42517006" />
       <window_info anchor="bottom" id="Android Profiler" order="6" />
       <window_info anchor="bottom" id="Debug" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.6278366" weight="0.4302721" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.6278366" weight="0.3265306" />
       <window_info anchor="bottom" id="Find" order="9" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
@@ -699,33 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/co/devbeerloper/myicecreamgame/EnemyBullet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="102" column="23" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="23" />
-          <folding>
-            <element signature="e#2037#2038#0" expanded="true" />
-            <element signature="e#2066#2067#0" expanded="true" />
-            <element signature="e#2104#2105#0" expanded="true" />
-            <element signature="e#2133#2134#0" expanded="true" />
-            <element signature="e#2164#2165#0" expanded="true" />
-            <element signature="e#2192#2193#0" expanded="true" />
-            <element signature="e#2233#2234#0" expanded="true" />
-            <element signature="e#2267#2268#0" expanded="true" />
-            <element signature="e#2302#2303#0" expanded="true" />
-            <element signature="e#2334#2335#0" expanded="true" />
-            <element signature="e#2383#2384#0" expanded="true" />
-            <element signature="e#2425#2426#0" expanded="true" />
-            <element signature="e#2460#2461#0" expanded="true" />
-            <element signature="e#2492#2493#0" expanded="true" />
-            <element signature="e#2541#2542#0" expanded="true" />
-            <element signature="e#2583#2584#0" expanded="true" />
-            <element signature="e#2627#2628#0" expanded="true" />
-            <element signature="e#2667#2668#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/co/devbeerloper/myicecreamgame/Ship.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -755,10 +720,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/co/devbeerloper/myicecreamgame/Bullet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+          <folding>
+            <element signature="e#1948#1949#0" expanded="true" />
+            <element signature="e#1985#1986#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/co/devbeerloper/myicecreamgame/ShipBad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="107" column="62" selection-start-line="107" selection-start-column="62" selection-end-line="107" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/co/devbeerloper/myicecreamgame/EnemyBullet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="113" column="30" selection-start-line="113" selection-start-column="30" selection-end-line="113" selection-end-column="30" />
+          <folding>
+            <element signature="e#2037#2038#0" expanded="true" />
+            <element signature="e#2066#2067#0" expanded="true" />
+            <element signature="e#2104#2105#0" expanded="true" />
+            <element signature="e#2133#2134#0" expanded="true" />
+            <element signature="e#2164#2165#0" expanded="true" />
+            <element signature="e#2192#2193#0" expanded="true" />
+            <element signature="e#2233#2234#0" expanded="true" />
+            <element signature="e#2267#2268#0" expanded="true" />
+            <element signature="e#2302#2303#0" expanded="true" />
+            <element signature="e#2334#2335#0" expanded="true" />
+            <element signature="e#2383#2384#0" expanded="true" />
+            <element signature="e#2425#2426#0" expanded="true" />
+            <element signature="e#2460#2461#0" expanded="true" />
+            <element signature="e#2492#2493#0" expanded="true" />
+            <element signature="e#2541#2542#0" expanded="true" />
+            <element signature="e#2583#2584#0" expanded="true" />
+            <element signature="e#2627#2628#0" expanded="true" />
+            <element signature="e#2667#2668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/co/devbeerloper/myicecreamgame/Rock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        <state relative-caret-position="-1569">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
           <folding>
             <element signature="e#1789#1790#0" expanded="true" />
             <element signature="e#1818#1819#0" expanded="true" />
@@ -784,28 +794,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/co/devbeerloper/myicecreamgame/Bullet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
-          <folding>
-            <element signature="e#1948#1949#0" expanded="true" />
-            <element signature="e#1985#1986#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/co/devbeerloper/myicecreamgame/ShipBad.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="107" column="62" selection-start-line="107" selection-start-column="62" selection-end-line="107" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/co/devbeerloper/myicecreamgame/GameSurfaceView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="120" column="147" selection-start-line="120" selection-start-column="147" selection-end-line="120" selection-end-column="147" />
+        <state relative-caret-position="90">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
